@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ftp - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP3142.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/Ftp.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Books\VCPrgBib\CDROM\Chap34\Ftp\FtpView.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3142.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP3143.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Ftp.pdb" /machine:I386 /out:"Release/Ftp.exe" 
+.\Release\Ftp.obj
+.\Release\FtpDoc.obj
+.\Release\FtpFileDlg.obj
+.\Release\FtpView.obj
+.\Release\MainFrm.obj
+.\Release\StdAfx.obj
+.\Release\Ftp.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP3143.TMP"
+<h3>Output Window</h3>
+Compiling...
+FtpView.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Ftp.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
